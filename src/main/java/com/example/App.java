@@ -2,23 +2,20 @@ package com.example;
 
 public class App
 {
-    public static void main( String[] args )
+    public static void main( String[] args ) throws Exception
     {
-        UsuarioEsquema usuario = new UsuarioEsquema();
-        usuario.setNombre("dany");
-        // usuario.setContraseña("12345");
-        // usuario.setEmail("dany@gmail");
-        // usuario.setMeta("comprar helado");
-        // usuario.setMontoObjetivo(300);
-        // usuario.setDineroActual(100);
-        Archivo.postUser(usuario);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("1. Iniciar sesion\n2. Registrar");
+        int opcion = scanner.nextInt();
+        if(opcion == 1){
+            IniciarSesion iniciar = new IniciarSesion();
+            iniciar.formulario(true);
 
-        // UsuarioEsquema user = Archivo.getUser("dany");
-        // System.out.println(user.getMontoObjetivo());
-
-        // IniciarSesion iniciar = new IniciarSesion();
-        // iniciar.formulario(true);
-
-
+        }else if(opcion == 2){
+            Registrar registrar = new Registrar();
+            registrar.registro("", "", "");
+        }else{
+            System.out.println("Error debes de elegir una opcion");
+        }
     }
 }
