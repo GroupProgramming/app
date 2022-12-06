@@ -1,1 +1,6 @@
-comprar casa
+Nombre:dany
+Contraseña:12345
+Email:dany@gmail
+Meta:Comprar auto
+Monto Objetivo:3000
+Dinero Actual:1700

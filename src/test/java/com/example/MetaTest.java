@@ -2,15 +2,24 @@ package com.example;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.mockStatic;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+
 import org.junit.Before;
 import org.junit.Test;
+import org.mockito.MockedStatic;
+import org.mockito.MockedStatic.Verification;
 
 public class MetaTest {
     Meta meta;
 
     @Before
     public void setUp() {
-        meta = new Meta();
+        meta = new Meta("dany");
     }
 
     @Test

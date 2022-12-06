@@ -2,6 +2,7 @@ package com.example;
 
 public class Registrar{
 
+
     public void registro(String nombre, String email, String contraseña)throws Exception{
         UsuarioEsquema usuarioNUevo = new UsuarioEsquema();
 
@@ -16,7 +17,7 @@ public class Registrar{
         if(contraseña.equals("")){
             throw new Exception("Contraseña No Valido");
         }
-        
+
         usuarioNUevo.setNombre(nombre);
         usuarioNUevo.setEmail(email);
         usuarioNUevo.setContraseña(contraseña);

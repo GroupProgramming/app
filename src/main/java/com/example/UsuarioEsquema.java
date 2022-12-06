@@ -1,12 +1,14 @@
 package com.example;
 
 public class UsuarioEsquema{
+
     private String nombre;
     private String contraseña;
     private String email;
     private String meta;
     private int montoObjetivo;
     private int dineroActual;
+
 
     public String getNombre(){
         return nombre;
@@ -53,4 +55,5 @@ public class UsuarioEsquema{
     public void setMeta(String meta){
         this.meta = meta;
     }
+
 }
