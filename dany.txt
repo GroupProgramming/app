@@ -1,6 +1,6 @@
 Nombre:dany
-Contraseña:12345
+ContraseÃ±a:null
 Email:dany@gmail
 Meta:Comprar auto
 Monto Objetivo:3000
-Dinero Actual:1700
+Dinero Actual:4000

@@ -1,0 +1,6 @@
+Nombre:juan
+Contraseña:juan
+Email:juan
+Meta:null
+Monto Objetivo:0
+Dinero Actual:0

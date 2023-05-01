@@ -1,0 +1,6 @@
+Nombre:pepe
+Contraseña:12345
+Email:12345
+Meta:null
+Monto Objetivo:0
+Dinero Actual:0
